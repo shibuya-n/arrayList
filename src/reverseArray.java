@@ -16,14 +16,12 @@ public class reverseArray {
     }
 
     public static void reverse(){
-        for (int i = (num -1); i >= 0; i--){
+        ArrayList<String> newInput = new ArrayList<>();
+        for (int i = userInputs.size() -1 ; i >= 0; i--){
             String temp = userInputs.get(i);
-            String temp2 = userInputs.get(num - i);
-            userInputs.set(num, temp2);
-            userInputs.set((num-i), temp);
-
+            newInput.add(temp);
         }
-       System.out.println(userInputs);
+       System.out.println(newInput);
 
     }
 }

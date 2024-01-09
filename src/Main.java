@@ -22,11 +22,11 @@ public class Main {
                 reverseArray.reverse();
             }
             else if (response.equals("2")){
-
+                System.out.println(averageIntegers.takeInput());
 
             }
             else if (response.equals("3")){
-
+                System.out.println(returnInput.returnArray());
 
 
 
